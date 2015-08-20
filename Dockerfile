@@ -1,6 +1,6 @@
 FROM logstash:1.5.3
 
-RUN plugin install logstash-input-sttxml1
+RUN plugin install --version 0.1.1 logstash-input-sttxml1
 
 VOLUME /data
 
