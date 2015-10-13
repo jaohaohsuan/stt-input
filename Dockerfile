@@ -1,4 +1,4 @@
-FROM logstash:1.5.3
+FROM logstash:2
 
 RUN plugin install --version 0.1.1 logstash-input-sttxml1
 
